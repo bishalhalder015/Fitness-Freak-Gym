@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Us - Fitness Freak Gym</title>
+  <style>
+    body {
+        width:100%;
+        background-image:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.632)),url(img/bk.jpeg);
+        background-size:cover;
+        background-attachment: fixed;
+      
+    }
+    
+      
+      .content {
+        background-color: rgba(0, 0, 0, 0.349);
+        padding: 20px;
+        margin-left: 50px;
+        max-width: 600px;
+        text-align: center;
+      }
+      
+      .content h1 {
+        color: rgba(255, 255, 255, 0.836);
+        font-size: 40px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+      }
+      
+      .content h2 {
+        font-size: 24px;
+        color: rgba(255, 255, 255, 0.836);
+
+        margin-bottom: 10px;
+      }
+      
+      .content p {
+        color: rgba(255, 255, 255, 0.836);
+
+        font-size: 16px;
+        margin-bottom: 10px;
+      }
+      
+      .content form {
+        color: rgba(255, 255, 255, 0.836);
+        margin-bottom: 20px;
+      }
+      
+      .content label {
+        display: block;
+        text-align: left;
+        font-size: 16px;
+        margin-bottom: 5px;
+      }
+      
+      .content input[type="text"],
+      .content input[type="email"],
+      .content textarea {
+        width: 100%;
+        padding: 8px;
+        margin-left: -8px;
+        margin-bottom: 5px;
+        font-size: 16px;
+        border: 1px solid #ffffff;
+        border-radius: 40px;
+      }
+      
+      .content input[type="submit"] {
+        background-color: #ff0000c3;
+        color: rgba(255, 255, 255, 0.836);
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        border-radius: 40px;
+        cursor: pointer;
+      }
+      
+      .content input[type="submit"]:hover {
+        background-color: #45a049;
+      }
+      
+      .content a {
+        color: #1E90FF;
+        text-decoration: none;
+      }
+      
+      .content a:hover {
+        text-decoration: underline;
+      }
+      
+  </style>
+</head>
+<body>
+    <div class="content">
+  <h1>Contact Us</h1>
+  </div>
+  <div class="content">
+    <h2>General Inquiries</h2>
+    <p>For general questions or inquiries, please fill out the form below or contact us using the provided contact details.</p>
+    <form action="submit_contact_form.php" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      
+      <input type="submit" value="Submit">
+    </form>
+    <p>You can also reach us at:</p>
+    <p>Email: <a href="mailto:info@fitnessfreak.com">info@fitnessfreak.com</a></p>
+    <p>Phone: +91 987-654-3210</p>
+  </div>
+  
+  <div class="content">
+    <h2>Membership and Support</h2>
+    <p>If you have questions about membership, classes, or need support, please contact our membership team:</p>
+    <p>Email: <a href="mailto:membership@fitnessfreak.com">membership@fitnessfreak.com</a></p>
+    <p>Phone: +91 987-654-3210</p>
+  </div>
+  <script>
+  </script>
+</body>
+</html>
